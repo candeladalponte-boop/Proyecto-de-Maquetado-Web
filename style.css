@@ -3,3 +3,29 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+:root {
+    --bg-main: #12131A;
+    --bg-card: #1C1F2A;
+    --text-primary: #F2F2F7;
+    --text-secondary: #B4B7C9;
+    --card-purple: #C99DFF;
+    --card-orange: #FFB21E;
+    --card-coral: #FF8A65;
+    --bar-color: #D19BFF;
+    --border: #2A2D3A;
+    --font: 'Space Grotesk', sans-serif;
+}
+
+body {
+    background-color: var(--bg-main);
+    color: var(--text-primary);
+    font-family: var(--font);
+    min-height: 100vh;
+    padding: 24px 16px;
+}
+
+.container {
+    max-width: 680px;
+    margin: 0 auto;
+}
