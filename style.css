@@ -174,12 +174,23 @@ body {
 
 .card-purple {
     background-color: var(--card-purple);
+    background-image: url(./assets/images/card-purple.png);
+    background-size: cover;
+    background-position: center;
 }
 
 .card-orange {
     background-color: var(--card-orange);
+    background-image: url(./assets/images/card-orange.png);
+    background-size: cover;
+    background-position: center;
 }
 
 .card-coral {
     background-color: var(--card-coral);
+    background-image: url(./assets/images/card-coral.png);
+    background-size: cover;
+    background-position: center;
 }
+
+
