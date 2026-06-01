@@ -142,3 +142,44 @@ body {
     font-size: 14px;
     color: var(--text-secondary);
 }
+
+.cards {
+    display: flex;
+    gap: 16px;
+    margin-bottom: 32px;
+}
+
+.card {
+    flex: 1;
+    border-radius: 12px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    position: relative;
+    overflow: hidden;
+}
+
+.card-number {
+    font-size: 48px;
+    font-weight: 700;
+    color: #12131A
+}
+
+.card-label {
+    font-size: 14px;
+    font-weight: 500;
+    color: #12131A;
+}
+
+.card-purple {
+    background-color: var(--card-purple);
+}
+
+.card-orange {
+    background-color: var(--card-orange);
+}
+
+.card-coral {
+    background-color: var(--card-coral);
+}
