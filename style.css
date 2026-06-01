@@ -193,4 +193,71 @@ body {
     background-position: center;
 }
 
+.density {
+    background-color: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 24px;
+}
 
+.density-title {
+    font-size: 18px;
+    font-weight: 600;
+    color: var(--text-primary);
+    margin-bottom: 20px;
+}
+
+.density-list {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin-bottom: 16px;
+}
+
+.density-row {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.density-letter {
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--text-primary);
+    width: 16px;
+}
+
+.density-bar-wrap {
+    flex: 1;
+    background-color: var(--border);
+    border-radius: 999px;
+    height: 8px;
+    overflow: hidden;
+}
+
+.density-bar {
+    height: 100%;
+    background-color: var(--bar-color);
+    border-radius: 999px;
+}
+
+.density-count {
+    font-size: 13px;
+    color: var(--text-secondary);
+    width: 90px;
+    text-align: right;
+}
+
+.see-more {
+    background: none;
+    border: none;
+    color: var(--text-secondary);
+    font-family: var(--font);
+    font-size: 14px;
+    cursor: pointer;
+    padding: 0;
+}
+
+.see-more:hover {
+    color: var(--text-primary);
+}
