@@ -261,3 +261,29 @@ body {
 .see-more:hover {
     color: var(--text-primary);
 }
+
+/* RESPONSIVE */
+@media (max-width: 480px) {
+    .hero-title {
+        font-size: 28px;
+    }
+
+    .cards {
+        flex-direction: column;
+    }
+
+    .card-number {
+        font-size: 36px;
+    }
+
+    .controls {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 12px;
+    }
+
+    .checkboxes {
+        flex-direction: column;
+        gap: 10px;
+        }
+}
