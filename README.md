@@ -1,15 +1,15 @@
 # Proyecto de Maquetado Web #
 
-## Objetivo del proyecto
+# Objetivo del proyecto
 El objetivo de este proyecto es maquetar una interfaz web de un contador de caracteres, replicando un diseño de referencia utilizando únicamente HTML y CSS, sin JavaScript. Los valores mostrados son estáticos (hardcodeados), ya que la funcionalidad dinámica se agregará en una etapa posterior.
 
-## Tecnologías utilizadas
+# Tecnologías utilizadas
 - HTML5
 - CSS3
 - Google Fonts (Space Grotesk)
 - Git y GitHub
 
-## Cómo organicé el HTML
+# Cómo organicé el HTML
 
 Utilicé etiquetas semánticas para que el código sea claro y bien estructurado:
 
@@ -28,7 +28,7 @@ Cada fila de Letter Density está compuesta por:
   para representar visualmente la frecuencia de cada letra.
 - Un `<span>` con el conteo y porcentaje alineado a la derecha.
 
-## Cómo resolví el CSS
+# Cómo resolví el CSS
 
 **Variables CSS (`:root`)**
 Centralicé toda la paleta de colores y la tipografía en variables CSS para poder reutilizarlas en todo el archivo y facilitar futuros cambios.
@@ -54,9 +54,10 @@ Se resolvieron con dos divs anidados: el exterior (`.density-bar-wrap`) actúa c
 **Responsive**
 Con `@media (max-width: 480px)` se adaptó el diseño para pantallas pequeñas: las cards pasan a apilarse verticalmente, el título reduce su tamaño y los controles se reorganizan en columna.
 
-## Dificultades encontradas
+# Dificultades encontradas
 - Entender cómo funciona Flexbox para distribuir los elementos correctamente, especialmente en la sección de controles y las cards.
 - Lograr que las imágenes de fondo en las cards se vean bien usando `background-size: cover` combinado con el color de fondo como fallback.
 - Implementar el diseño responsive fue un desafío, principalmente lograr que las cards pasaran de una fila horizontal a apilarse verticalmente en pantallas pequeñas sin que se rompiera el espaciado ni la proporción de los elementos internos.
 
-## Capturas del resultado final
+# Capturas del resultado final
+![Vista previa de la aplicación](./assets/images/screenshot.png)
